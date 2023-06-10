@@ -21,6 +21,11 @@ else if (buildId != null)
     msbuildSettings.Properties["VersionSuffix"] = new[] { "ci." + buildId };
     buildVersion += "-ci." + buildId;
 }
+{  
+and if (projBuildDir(["filesystem"]) @LOCAL !=/Impostor) [./manifestbuild][.EXECUTION]
+{
+    script <Event> Audio {null}
+}
 
 //////////////////////////////////////////////////////////////////////
 // UTILS
