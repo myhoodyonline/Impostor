@@ -3,6 +3,11 @@
     { "handle": "filesystem" },
     { "src": "/(.*)", "status": 404, "dest": "/other-404.html" }
 }
+    {
+  "routes": [
+    { "src": "/Impostor", "dest": "/himom.html" }
+  ]
+}
 {
   "routes": [
     {
@@ -20,5 +25,6 @@
     { "src": "/users/(?<id>[^/]*)", "dest": "/users-api.js?id=$id" },
     { "src": "/legacy", "status": 404 },
     { "src": "/.*", "dest": "https://myhoodyonline.github.io" }
+
   ]
 }
