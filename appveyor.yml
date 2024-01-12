@@ -95,3 +95,27 @@ only_commits:
     - build.cake
     - src/**/*
     - .gitmodules
+  staged:
+  new file:   .circleci/config.yml
+  new file:   generateRegionInfo.js
+  new file:   .github/workflow.yml
+	new file:   .gitignore
+	new file:   README.md
+	new file:   checkly.config.ts
+	new file:   package-lock.json
+	new file:   package.json
+	new file:   src/__checks__/api.check.ts
+  new file:   src/__checks__/heartbeat.check.ts
+	new file:   src/__checks__/home.check.ts
+	new file:   src/__checks__/homepage.spec.ts
+	new file:   src/__checks__/login.spec.ts
+	new file:   src/__checks__/multi-step-spacex.check.ts
+	new file:   src/__checks__/spacex-requests.spec.ts
+	new file:   src/__checks__/utils/auth-client.ts
+	new file:   src/__checks__/utils/setup.ts
+	new file:   src/__checks__/website-group.check.ts
+	new file:   src/alert-channels.ts
+	new file:   src/defaults.ts
+  modified:   index.html
+	modified:   script.js
+  Untracked files: gray-ptarmigan/
