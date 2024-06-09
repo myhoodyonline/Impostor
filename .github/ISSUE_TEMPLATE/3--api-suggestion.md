@@ -2,7 +2,7 @@
 name: 3. Api suggestion
 about: To make suggestions for the plugin api
 title: ''
-labels: api
+labels: ''
 assignees: ''
 
 ---

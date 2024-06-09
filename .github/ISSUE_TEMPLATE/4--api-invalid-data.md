@@ -2,7 +2,7 @@
 name: 4. Api invalid data
 about: To let us know about invalid data in the api
 title: ''
-labels: api
+labels: ''
 assignees: ''
 
 ---

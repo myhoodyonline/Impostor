@@ -2,7 +2,7 @@
 name: 5. Api unavailable data
 about: To let us know about unavailable data from the api that you would like to use
 title: ''
-labels: api
+labels: ''
 assignees: ''
 
 ---
